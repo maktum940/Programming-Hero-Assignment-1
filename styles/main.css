@@ -111,6 +111,40 @@ main{
   font-size: 20px;
   margin: 0%;
 }
+/* contact */
+input{
+  border: #8987A1 solid 1px;
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  width: 500px;
+  border-radius: 10px;
+}
+:placeholder-shown{
+  font-size: large;
+}
+textarea{
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+label{
+  display: block;
+  padding: 10px 0px;
+}
+.get-in-touch{
+  display: flex;
+  justify-content: space-between;
+}
+.get-in-touch h1{
+  width: 15ch;
+  font-weight:800;
+  font-size: 97px;
+}
+.form form fieldset{
+  border: none;
+}
+
 /* footer */
 .footer-content{
   justify-items: center;
