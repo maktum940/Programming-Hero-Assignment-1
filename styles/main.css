@@ -11,9 +11,6 @@
   /* font-weight: 400; */
   font-style: normal;
 }
-.color{
-
-}
 /* header */
 .bg-image{
   background-image: url(../Assets/Hero-bg.png);
@@ -58,7 +55,28 @@ nav ul li{
   text-align: center;
   margin-bottom: 10%;
 }
-
+main{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/* main-preview */
+.preview{
+  display: flex;
+  justify-content: space-between;
+  margin: 10% 0%;
+}
+.preview-content h3{
+  font-weight: 700;
+  font-size: 42px;
+}
+.preview-content p{
+  color: #8987A1;
+  font-size: 24px;
+  width: 35ch;
+}
+.preview-img img{
+  border-radius: 48px;
+}
 /* footer */
 .footer-content{
   justify-items: center;
